@@ -77,10 +77,8 @@
       </rect>
     </svg>
 
-    <rect id="track-progress-bar-container">
-      <rect id="track-progress-bar-fill">
-      </rect>
-    </rect>
+
+    <arc id="track-progress" />
   </svg>
 
   <svg id="playlists-picker" class="page">
