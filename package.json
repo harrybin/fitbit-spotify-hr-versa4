@@ -1,8 +1,8 @@
 {
   "fitbit": {
-    "appUUID": "008610dc-7424-4074-87a5-739969eff3d3",
+    "appUUID": "108610dc-7424-4074-87a5-739969eff3d4",
     "appType": "app",
-    "appDisplayName": "Spotify HR",
+    "appDisplayName": "Spotify + HR",
     "iconFile": "resources/icon.png",
     "wipeColor": "#4caf50",
     "requestedPermissions": [
@@ -13,17 +13,18 @@
     ],
     "buildTargets": [
       "atlas",
+      "rhea",
       "hera"
     ],
     "i18n": {
       "en": {
-        "name": "Spotify HR"
+        "name": "Spotify + HR"
       }
     },
     "enableProposedAPI": true
   },
   "devDependencies": {
-    "@fitbit/sdk": "~6.2.0-pre.1",
+    "@fitbit/sdk": "~7.1.0-pre.0",
     "@fitbit/sdk-cli": "~1.8.0-pre.10",
     "prettier": "^2.8.4"
   },
